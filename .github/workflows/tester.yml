@@ -30,6 +30,7 @@ jobs:
     name: Testcases
     runs-on: ubuntu-latest
     needs: build
+    continue-on-error: true
     strategy:
       fail-fast: false
       matrix:
@@ -327,6 +328,9 @@ jobs:
         with:
           name: result
           path: .
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
       - name: Calculate Score
-        run: ./scripts/calc_score.sh
-        working-directory: ./tools
+        run: python ./scripts/avg.py
