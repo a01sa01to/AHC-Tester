@@ -8,8 +8,9 @@ AtCoder Heuristic Contest Tester
 2. Download AHC Local Tester
 3. Move `Cargo.toml`, `Cargo.lock`, `src/**` to `tools`
 4. Modify `seeds.txt` to include 1..300 (If needed)
-5. Modify `scripts/*.sh`
-6. Commit and Push
+5. Generate testcases
+6. Modify `scripts/*.sh`
+7. Commit and Push
 
 
 ## How to test
