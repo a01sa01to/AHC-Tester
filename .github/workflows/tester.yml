@@ -312,6 +312,7 @@ jobs:
           name: result
           path: |
             ./tools/out/
+            ./tools/err/
             ./tools/res/
           if-no-files-found: error
   score:
