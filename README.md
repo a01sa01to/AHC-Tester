@@ -4,11 +4,12 @@ AtCoder Heuristic Contest Tester
 
 ## How to use (before test)
 
-1. Download AHC Local Tester
-2. Move `Cargo.toml`, `Cargo.lock`, `src/**` to `tools`
-3. Modify `seeds.txt` to include 1..300 (If needed)
-4. Modify `scripts/*.sh`
-5. Commit and Push
+1. Branch out from `template`
+2. Download AHC Local Tester
+3. Move `Cargo.toml`, `Cargo.lock`, `src/**` to `tools`
+4. Modify `seeds.txt` to include 1..300 (If needed)
+5. Modify `scripts/*.sh`
+6. Commit and Push
 
 
 ## How to test
